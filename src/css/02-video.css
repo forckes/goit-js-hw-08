@@ -1,1 +1,7 @@
-/*# sourceMappingURL=02-video.css.map */
+body {
+  display: flex;
+}
+
+iframe {
+  margin: 0px 0px 0px 20px;
+}/*# sourceMappingURL=02-video.css.map */
