@@ -1,0 +1,21 @@
+.container {
+  max-width: 1070px;
+  margin: 0 auto;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 10px;
+  grid-auto-rows: 240px;
+  place-items: center;
+}
+.gallery__item {
+  transition: transform 0.2s linear 0s;
+}
+.gallery__item:hover {
+  transform: scale(1.1);
+}
+.gallery__img {
+  max-width: 350px;
+}/*# sourceMappingURL=01-gallery.css.map */
